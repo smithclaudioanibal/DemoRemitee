@@ -19,12 +19,6 @@ namespace remitee_api.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
-        public decimal Get()
-        {
-            return 4.0M;
-        }
-
         [Route("dollarToPeso")]
         [HttpGet]
         public decimal DollarToPeso(decimal dollar)
