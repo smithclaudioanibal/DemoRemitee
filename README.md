@@ -20,3 +20,17 @@ Consideraciones.
 -Compartir el código mediante algún repositorio
 
 Se requiere una UI, en Angular o en lo que vos quieras, que consuma esa API que vas a desarrollar.
+
+Para instalar:
+
+Usar VS CODE
+abrir la carpeta remitee-api
+correr el proyecto con F5
+
+En otra ventana de VS CODE
+
+abrir la carpeta remitee-ui
+en la terminal:
+
+npm install
+npm start
